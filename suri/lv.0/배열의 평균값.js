@@ -1,4 +1,4 @@
-// Sol1
+// sol1)
 function solution(numbers) {
   // numbers 원소들 배열의 합을 구한다.
   let sum = 0;
