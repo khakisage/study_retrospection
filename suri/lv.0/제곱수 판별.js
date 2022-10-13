@@ -12,5 +12,7 @@ function solution(n) {
 // sol2)
 function solution(n) {
   // Math.sqrt() 메소드를 사용해서 제곱근을 구하고, 제곱근이 정수인지 확인한다.
-  Math.sqrt(n) === parseInt(Math.sqrt(n)) ? 1 : 2;
+  return Math.sqrt(n) === parseInt(Math.sqrt(n)) ? 1 : 2;
+  // Number.isInteger() 메소드를 사용한다.
+  // return Number.isInteger(Math.sqrt(n)) ? 1 : 2;
 }
